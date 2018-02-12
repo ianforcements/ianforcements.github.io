@@ -3,8 +3,13 @@ layout: page
 title: About
 permalink: /about/
 ---
+My name is Ian, I'm a technologist of the sort who believes that web servers don't belong in light globes. My tech interests are security, networks and schadenfreude. My non tech interests are visual art, live theatre and cocktails. 🍸
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I write mainly about technology things, and in particular I write articles that I wish I had found whenever I have to search for something; the idea is that if I'm looking for some information and can't find it then presumably someone else is too, so there's value in documenting it!
+
+On occasion I write short essays and rants as well.
+
+This blog is hosted on GitHub Pages, and is built using Jekyll with the minima theme.
 
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
@@ -13,6 +18,5 @@ You can find the source code for Minima at GitHub:
 You can find the source code for Jekyll at GitHub:
 [jekyll][jekyll-organization] /
 [jekyll](https://github.com/jekyll/jekyll)
-hello test
 
 [jekyll-organization]: https://github.com/jekyll
