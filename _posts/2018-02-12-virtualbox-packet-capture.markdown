@@ -22,6 +22,7 @@ Once a VM exists and is ready to go (I cooked up a fresh one running a liveCD, t
 `VBoxManage modifyvm vmname --nictrace(N) on --nictracefile(N) outfile`
 
 Let's break down those parameters:
+
 vmname is the name of your VM, as seen in the virtualbox console
 outfile is the path to the file you wish to export to, and
 (N) is the identifier for the network interface. Usually this will be 1 unless your virtual machine has multiple network interfaces  (ie, use --nictrace1 and --nictracefile1).
