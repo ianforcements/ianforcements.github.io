@@ -14,7 +14,7 @@ Documentation on VBoxManage is here. There's an enormous array of features:
 <https://www.virtualbox.org/manual/ch08.html#idm3660>
 
 In particular, I'm invoking the 'modifyvm' mode and accessing the networking settings documented here:  
-<https://www.virtualbox.org/manual/ch08.html#idm4243>
+<https://www.virtualbox.org/manual/ch08.html#vboxmanage-modifyvm>
 
 Once a VM exists and is ready to go (I cooked up a fresh one running a liveCD, to ensure no extant network configuration), run the following:  
 `VBoxManage modifyvm vmname --nictrace(N) on --nictracefile(N) outfile`
