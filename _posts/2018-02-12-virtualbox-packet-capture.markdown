@@ -10,13 +10,13 @@ Another thing I'm doing in 2018 is writing a rudimentary DHCP server, for fun an
 
 I initially thought I'd have to do some black magic using wireshark but it turns out VirtualBox has this feature built in - you have to use VBoxManage however, this being the CLI for Virtualbox.
 
-Documentation on VBoxManage is here. There's an enormous array of features:
+Documentation on VBoxManage is here. There's an enormous array of features:  
 <https://www.virtualbox.org/manual/ch08.html#idm3660>
 
-In particular, I'm invoking the 'modifyvm' mode and accessing the networking settings documented here:
+In particular, I'm invoking the 'modifyvm' mode and accessing the networking settings documented here:  
 <https://www.virtualbox.org/manual/ch08.html#idm4243>
 
-Once a VM exists and is ready to go (I cooked up a fresh one running a liveCD, to ensure no extant network configuration), run the following:
+Once a VM exists and is ready to go (I cooked up a fresh one running a liveCD, to ensure no extant network configuration), run the following:  
 `VBoxManage modifyvm vmname --nictrace(N) on --nictracefile(N) outfile`
 
 Let's break down those parameters:
@@ -24,7 +24,7 @@ vmname is the name of your VM, as seen in the virtualbox console
 outfile is the path to the file you wish to export to, and
 (N) is the identifier for the network interface. Usually this will be 1 unless your virtual machine has multiple network interfaces  (ie, use --nictrace1 and --nictracefile1).
 
-Then you just start the VM and you're off! Be sure to turn nictrace off when you're done, otherwise the capture file will grow forever. This is done simply:
+Then you just start the VM and you're off! Be sure to turn nictrace off when you're done, otherwise the capture file will grow forever. This is done simply:  
 `VBoxManage modifyvm vmname --nictrace1 off`
 
 One important detail that seems more difficult to find than it should be is the location of vboxmanage under OSX. Here's where I found it on my machine, running VirtualBox 5.1.22:
