@@ -2,7 +2,8 @@
 layout: post
 title:  "Network packet capture from Virtualbox guests"
 date:   2018-02-12 01:00:00 +0100
-categories: virtualbox wireshark dhcp howto
+categories: 
+tags: howto dhcp virtualbox wireshark packet
 ---
 I'm starting this blog to, amongst other purposes, document some things I have to spend any meaningful about of time searching for. Hopefully these entries will be able to save time for someone!
 
