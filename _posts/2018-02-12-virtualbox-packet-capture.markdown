@@ -7,7 +7,7 @@ tags: howto dhcp virtualbox wireshark packet
 ---
 I'm starting this blog to, amongst other purposes, document some things I have to spend any meaningful about of time searching for. Hopefully these entries will be able to save time for someone!
 
-Another thing I'm doing in 2018 is writing a rudimentary DHCP server, for fun and learning. This lead me to wonder, what do DHCP packets actually look like in the wild? What better way to see this than spin up a VM and watch the packets as the guest wakes up!
+Another thing I'm doing in 2018 is writing a rudimentary DHCP server, for fun and learning. This lead me to wonder, what do DHCP packets actually look like in the wild? What better way to see this than to spin up a VM and watch the packets as the guest wakes up!
 
 I initially thought I'd have to do some black magic using wireshark but it turns out VirtualBox has this feature built in - you have to use VBoxManage however, this being the CLI for Virtualbox.
 
