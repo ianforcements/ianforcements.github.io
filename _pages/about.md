@@ -1,6 +1,6 @@
 ---
-layout: page
-title: About
+layout: single
+title: "Some things about me"
 permalink: /about/
 ---
 My name is Ian, I'm a technologist of the sort who believes that web servers don't belong in light globes. My tech interests are security, networks and schadenfreude. My non-tech interests are visual art, live theatre and cocktails. 🍸
@@ -11,4 +11,4 @@ On occasion I write short essays and rants as well.
 
 I can be reached at ian.hutchinson@gmail.com
 
-This blog is hosted on GitHub Pages, and is built using Jekyll with the minima theme.
+This blog is hosted on GitHub Pages, and is built using Jekyll with the [minimal-mistakes](https://mmistakes.github.io/minimal-mistakes/) theme with some slight adjustments.

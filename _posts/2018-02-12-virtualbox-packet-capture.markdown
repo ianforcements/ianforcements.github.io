@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Network packet capture from Virtualbox guests"
 date:   2018-02-12 01:00:00 +0100
 categories: 
@@ -33,6 +33,6 @@ One important detail that seems more difficult to find than it should be is the 
 
 Once this is done you get a lovely .pcap file which opens up just fine in wireshark, and check it out:
 
-![captured packets - let them go!]({{ "/assets/2018-02-12-virtualbox-packet-capture-wiresharkpcap.png" | absolute_url }})
+![captured packets - let them go!]({{ "/assets/images/2018-02-12-virtualbox-packet-capture-wiresharkpcap.png" | absolute_url }})
 
 The entire four-step DHCP discover-offer-request-ack process, right there at the top!

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "hello hi"
 date: 2018-02-11 18:20:00 +0100
 categories:
