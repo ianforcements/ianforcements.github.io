@@ -3,4 +3,4 @@ _site
 .jekyll-metadata
 draft
 .DS_Store
-.Gemfile.lock
+Gemfile.lock
