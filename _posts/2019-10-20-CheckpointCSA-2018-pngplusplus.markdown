@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "Checkpoint CSA 2018 writeup - PNG++"
-date: 2019-04-27 01:00:00 +100
+date: 2019-10-20 01:00:00 +100
+last_modified_at:
 categories:
 tags: howto python checkpoint ctf writeup crypto png
 ---
