@@ -9,10 +9,10 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Accident and Error"
+title                    : "Ian's Blog"
 title_separator          : "-"
 name                     : "Ian Hutchinson"
-description              : "The most persistent principles of the universe."
+description              : "I write sometimes."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : ianforcements/ianforcements.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -91,8 +91,8 @@ analytics:
 # Site Author
 author:
   name             : "Ian Hutchinson"
-  avatar           : /assets/images/face.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "”Then, as his planet killed him, it occurred to Kynes that his father and all the other scientists were wrong, that the most persistent principles of the universe were accident and error.”"
+  #  avatar           : /assets/images/face.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "This will be the sixth time I have rewritten my bio, and I have become exceedingly inefficient at it."
   location         : "Berlin, Germany"
   email            : ian.hutchinson@gmail.com
   uri              :

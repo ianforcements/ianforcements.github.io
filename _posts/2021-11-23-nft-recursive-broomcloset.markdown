@@ -82,15 +82,15 @@ I started with the intention of clarifying whether QueerSamus' absurd summary wa
 
 Some readers may be aware of IPFS storage, and there are some NFT projects using this! If you find a token URI with a link like so:
 
-ipfs://QmWh6HrDmgWQZaCzUckywNNJNdHa7uSgiNzYUrmc9xzfHz/9187
+<ipfs://QmWh6HrDmgWQZaCzUckywNNJNdHa7uSgiNzYUrmc9xzfHz/9187>
 
 ![broomcloset_10](../assets/images/broomcloset_10.png)
 
 then you're working with an asset stored on IPFS. At the time of writing browser integration with IPFS is patchy, but cloudflare have an interface you can use! Simply replace ipfs:// in the above URL with 
 
-https://cloudflare-ipfs.com/ipfs/
+<https://cloudflare-ipfs.com/ipfs/>
 
-as in, https://cloudflare-ipfs.com/ipfs/QmWh6HrDmgWQZaCzUckywNNJNdHa7uSgiNzYUrmc9xzfHz/9187
+as in, <https://cloudflare-ipfs.com/ipfs/QmWh6HrDmgWQZaCzUckywNNJNdHa7uSgiNzYUrmc9xzfHz/9187>
 
 and then go from there.
 
@@ -102,13 +102,13 @@ Firstly, IPFS is not a blockchain, though it is peer-to-peer and it is often imp
 
 IPFS in practice is not as bulletproof or antifragile as you might expect. The twitter account @CheckMyNft was at one point performing random checks on the availability of IPFS-stored NFT assets. The results were bad.
 
-https://twitter.com/CheckMyNFT/status/1371960028765245440?s=20
+<https://twitter.com/CheckMyNFT/status/1371960028765245440?s=20>
 
 ![broomcloset_11](../assets/images/broomcloset_11.png)
 
 Will this get better? Maybe. IPFS makes no guarantee that your files will be available permanently. Files will decay according to the whims of the protocol. If you want your files to stay, you need to either pin them on your own IPFS node (be your own datacentre!) or pay someone else to do that on their node.
 
-IPFS does not mitigate against your smart contract being edited without your knowledge. This happened to the 'Raccoon Secret Society', (a collection of raccoon avatars, naturally) which you can read about here: https://metaversal.banklesshq.com/p/racoon-rugged-society
+IPFS does not mitigate against your smart contract being edited without your knowledge. This happened to the 'Raccoon Secret Society', (a collection of raccoon avatars, naturally) which you can read about here: <https://metaversal.banklesshq.com/p/racoon-rugged-society>
 
 In summary, what happened was that the smart contracts managing the NFT data were edited to change the URL that every NFT pointed to. Each raccoon avatar was replaced with a pile of ash and bones.
 
