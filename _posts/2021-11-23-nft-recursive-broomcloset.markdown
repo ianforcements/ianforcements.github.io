@@ -22,7 +22,7 @@ Satisfying as it is to read, I wanted to verify this for myself. Follow along if
 
 ### We set sail on the OpenSeas
 
-Our adventure starts at the OpenSea search bar. I suppose it's possible that readers in the far future may not know what OpenSea is, but in the world of 2021 it's the largest marketplace for NFTs in the world.
+Our adventure starts at the OpenSea search bar. I suppose it's possible that readers in the far future may not know what OpenSea is, but in 2021 it's the largest marketplace for NFTs in the world.
 
 [Here is a link](https://opensea.io/assets?search[query]=steve%20aoki%20fighting%20gravity) to the search results for the terms 'steve aoki fighting gravity', I know NFTs are forever but I'll include a screenshot here just in case this blog entry happens to last more forever.
 ![broomcloset_1](../assets/images/broomcloset_1.png)
@@ -74,7 +74,7 @@ So to summarize what we've learned:
 1. Yes, you are just buying a note on a registry somewhere. The Broom closet analogy is good so far.
 2. Nothing is stopping the artist from selling the same exact note multiple times! To extend the broom closet analogy, the salesman might have an entire wall of labels, each of them proudly stating that someone uniquely and canonically owns the mona lisa.
 3. All of this depends on boomer internet infrastructure. If either of the two normiespace hops (ether.cards or mypinata.cloud) go down, then you cannot verify your NFT! To revisit the broom closet analogy again - you don't have a label that says you own the mona lisa - you have a label that points you to a second broom closet, that points you to another broom closet, that finally points you to the mona lisa. If either of those broom closets are locked, you're in trouble.
-4. The last two hops aren't on the blockchain, so the blockchain promises don't apply. Specifically these are records that are very much mutable, and mutable by people who _aren't you_, the server admin of ether.cards can redirect your NFT to rick astley if they so chose, and you would have no recourse and no proof that your NFT had ever pointed to someplace different.
+4. The last two hops aren't on the blockchain, so the blockchain promises don't apply. Specifically these are records that are very much mutable, and mutable by people who _aren't you_, the server admin of ether.cards can redirect your NFT to rick astley if they so chose, and you would have no recourse and no proof that your NFT had ever pointed to something different.
 
 I started with the intention of clarifying whether QueerSamus' absurd summary was justified, and I'm left with the conclusion that it wasn't absurd enough.
 
@@ -86,7 +86,7 @@ ipfs://QmWh6HrDmgWQZaCzUckywNNJNdHa7uSgiNzYUrmc9xzfHz/9187
 
 ![broomcloset_10](../assets/images/broomcloset_10.png)
 
-then you're working with an asset stored on IPFS. At the time of writing, browser integration with IPFS is patchy, but cloudflare have an interface you can use, simply replace ipfs:// in the above URL with 
+then you're working with an asset stored on IPFS. At the time of writing browser integration with IPFS is patchy, but cloudflare have an interface you can use! Simply replace ipfs:// in the above URL with 
 
 https://cloudflare-ipfs.com/ipfs/
 
@@ -122,7 +122,7 @@ Filecoin is built on IPFS, and purports to solve the IPFS decay problem by incen
 
 Why not? My intuition is that spending money for storage is really not crucial to the NFT business model, regardless of what this means for buyers.
 
-A proper dive into both requires a dedicated article, so I'll save that for another time.
+A proper dive into both requires a dedicated article, so I'll save that for another time. The TLDR is: I'm really, really skeptical that the economics of these systems are gonna result in permanent, cheap, extra-available storage for uninteresting artworks at the kind of scale that would make them meaningfully useful.
 
 [^1]: _I'd never heard of Steve Aoki actually, some googling tells me he's a musician of some kind. His website links to a few NFT collections on NiftyGateway, but nothing on OpenSea? His OpenSea profile is 'verified' though? I'm sure it's all legit._
 [^2]: _hic et nunc went offline sometime between the first draft of this article and publication, I have things to say about that but that also deserves a dedicated post, so that's for another time_
