@@ -17,7 +17,9 @@ Let's go through the different ways of verifying your file.
 ## If you don't have a digest file
 I'm putting this first since it's the more common case. If you only have the digest string itself you can `echo` your digest string and the file name to the digest command (for example, `shasum` for the SHA family) like so:
 
-`echo "da39a3ee5e6b4b0d3255bfef95601890afd80709  dummy.txt" | shasum -a 256 -c`
+```
+echo "da39a3ee5e6b4b0d3255bfef95601890afd80709  dummy.txt" | shasum -a 256 -c
+```
 
 Note that -a 256 specifies the SHA-256 algorithm. Check `man shasum` for more details including the list of algorithms. Common ones are `1`, `256`, `512`. The default if no algorithm is specified is `1`.
 
