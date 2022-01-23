@@ -8,7 +8,7 @@ tags: howto terminal md5 sha hash digest
 ---
 Let's talk about verifying file hashes of downloads. If you don't care to verify hashes then you can probably close this tab and go about your day, but as a security professional I'm supposed to care about these things and it'd be terribly embarassing if I got pwned by a bad download. Besides, file downloads [have been compromised before.](https://blog.linuxmint.com/?p=2994)
 
-It's real easy to calculate the hash of a file, but when provided provided with a file and a file hash (for example, when downloading a linux distro), I recently found myself at a loss as to an easy way to verify that the file you have matches the hash that you're given; calculating the hash of your download and verifying-by-eyeball is clearly the silly way to go about it.
+It's real easy to calculate the hash of a file, but when provided with a file and a file hash (for example, when downloading a linux distro), I recently found myself at a loss as to an easy way to verify that the file you have matches the hash that you're given; calculating the hash of your download and verifying-by-eyeball is clearly the silly way to go about it.
 
 Sometimes your counterparty will be nice enough to give you a digest file, but sometimes all you have is the digest string and digest type.
 
