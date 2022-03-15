@@ -93,7 +93,7 @@ author:
   name             : "Ian Hutchinson"
   #  avatar           : /assets/images/face.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "This will be the sixth time I have rewritten my bio, and I have become exceedingly inefficient at it."
-  location         : "Berlin, Germany"
+  location         : "London/Zürich"
   email            : ian.hutchinson@gmail.com
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
